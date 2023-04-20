@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("./shanu images/kaar\ kun.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#container {
+  margin-top: 10%;
+  
+  font-family: cursive;
+}
+#txt , #time-txt ,#time {
+  text-align: center;
+  color:blue
+   /* background: linear-gradient(to left, red, blue); */
+  /* -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+ 
+}
+#time span {
+  font-size: 30px;
+  margin-left: 60px;
+  text-align: center;
+}
+#time-txt span {
+  margin-left: 55px;
+  margin-top: 30px;
+  padding-top: 20px;
+}
